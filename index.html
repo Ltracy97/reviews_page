@@ -8,28 +8,33 @@
     <link rel="stylesheet" href="styles.css"/>
 </head>
 <body>
-    <h1>Movie Reviews</h1>
+    <main>
+        <section class="container">
+            <div class="title">
+                <h2>Movie Reviews</h2>
+                <div class="underline"></div>
+            </div>
+            <article class="review">
+
+                <div class="img-contain">
+                    <img src="img/token_1.png" id="reviewer-image" alt="">
+                </div>
+                <h4 id="author">Del Ramsfire</h4>
+                <p id="class">Fighter</p>
+                <p id="info"> The movie was good</p>
+                <div class="button-container">
+                    <button class="button-prev">
+                        prev
+                    </button>
+                    <button class="button-next">
+                        next
+                    </button>
+
+                </div>
+            </article>
+        </section>
+    </main>
     
-    <div class="slideshow-container">
-        <div class="my-slide">
-            <div class="reviewer"> Adam </div>
-            <div class="text_num"> The movie was Great</div>
-        </div>
-
-        <div class="my-slide">
-            <div class="reviewer"> Anna </div>
-            <div class="text_num"> The movie was ok</div>
-        </div>
-
-        <div class="my-slide">
-            <div class="reviewer"> Aria </div>
-            <div class="text_num"> The movie was bad</div>
-        </div>
-    
-        <button class="previous" onclick="minusslide(1)">&#10094;</button>
-        <button class="next" onclick="plusslide(1)">&#10095;</button>
-
-    </div>
     <br>
     <script src="script.js"></script>
 
